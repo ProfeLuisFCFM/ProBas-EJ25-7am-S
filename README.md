@@ -1,2 +1,2 @@
-# ProBas-EJ-7am-S
+# Portafolio de Evidencias del Curso Programación Básica
 En este repositorio se almacenaran las actividades realizadas durante el semestre
