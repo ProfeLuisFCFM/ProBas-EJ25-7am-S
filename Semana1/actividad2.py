@@ -49,7 +49,7 @@ for itm in enumerate(semanaInglesa,101):
 #O or
 #N Not
 #Relacionales
-#<,> desigualdades 
+#<,> inecuaciones 
 #<=,>= desigualdades incluyentes 
 #!=,<> diferente
 # = igualdad
@@ -69,3 +69,8 @@ elif False:
     print("False")
 else:
     print("if/elif/else")
+
+
+
+
+
