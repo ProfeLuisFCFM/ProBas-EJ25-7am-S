@@ -1,5 +1,5 @@
-numA = int(input("ingrese A: "))
-numB = int(input("ingrese B: "))
+numA = 7# int(input("ingrese A: "))
+numB = 8# int(input("ingrese B: "))
 
 pregunta1 = numA > numB
 print(pregunta1,type(pregunta1))
@@ -86,7 +86,7 @@ for k, v in saludo.items():
     print(k,v)
 
 from random import randint
-ctrl = True
+ctrl = False
 while ctrl:
     print("1. Imprime Hola \n 2. Aleatorio \n 3. Salida")
     op = int(input("Introduzca la opción: "))
@@ -101,7 +101,7 @@ while ctrl:
 mensajes = ['Estás seguro?', 'Seguro, seguro?', 'Super seguro?', 'conste que no hay vuelta a atrás eh!!', "Te lo advertí", "borrando historial de chrome"]
 
 from random import randint
-ctrl = True
+ctrl = False
 while ctrl:
     print("1. Imprime Hola \n2. Aleatorio \n3. Salida")
     op = int(input("Introduzca la opción: "))
@@ -117,3 +117,48 @@ while ctrl:
         ctrl = False         
     else:
         print("opción invalida")
+
+
+# Listas
+
+lista1 = list()
+lista2 = []
+
+#Agregar elementos
+lista1.append("loquesea")
+lista1.append(None)
+
+#Borrar toda la lista
+#lista1.clear()
+
+#Importancia del copy
+lista2 = lista1.copy()
+
+lista2.append("querollo?")
+
+lista2.append("querollo?")
+
+lista2.append("querollo?")
+#print(lista1,lista2)
+
+#Imprime la cantidad de veces que aparece el elemento buscado
+
+#print(lista2.count("querollo?"))
+
+lista1 = lista1 + lista2
+
+print(lista2)
+
+lista1.extend(lista2)
+
+print(lista1, lista2)
+
+nombre = "Danna Cecilia Carranza Betancourt"
+
+print("La cantidad de palabras son: ",nombre.count(" ")+1)
+
+
+nombre2 = "Luis Angel Gutierrez Rodriguez"
+nombre2 = nombre2.replace(" ", "")
+
+print(len(nombre2))
