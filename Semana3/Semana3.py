@@ -23,11 +23,11 @@ varia, ble = operacionCirculo()
 def imprimirMenu(bMenuPrincipal):
     bMP = bMenuPrincipal
     menu = """
-            ############ MENU ############
-            ##                          ##
-            ##        1. Salir          ##
-            ##                          ##
-            ##############################
+            ┌----------------------------┐
+            |                            |
+            |        1. Salir            |
+            |                            |
+            └----------------------------┘
             """
     while bMP:
         print(menu)
